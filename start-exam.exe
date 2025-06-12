@@ -1,0 +1,17 @@
+@echo off
+echo Starting Exam Portal...
+echo.
+echo Please wait while the server starts...
+echo.
+echo Once started, you can access the exam at:
+echo http://localhost:3000
+echo.
+echo To access from mobile devices:
+echo 1. Make sure your phone is connected to the same WiFi as this computer
+echo 2. On your phone, open browser and enter: http://localhost:3000
+echo.
+echo Press Ctrl+C to stop the server when done
+echo.
+
+cd /d "%~dp0"
+npm run start-server 
