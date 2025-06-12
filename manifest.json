@@ -22,9 +22,21 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#2E265D",
   "background_color": "#ffffff",
   "orientation": "portrait",
   "scope": "/",
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "description": "University of Haripur Offline Exam Portal",
+  "dir": "ltr",
+  "lang": "en-US",
+  "categories": ["education", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Take Exam",
+      "url": "/exams",
+      "description": "Start a new exam"
+    }
+  ]
 }
