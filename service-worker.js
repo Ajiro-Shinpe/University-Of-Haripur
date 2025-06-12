@@ -1,12 +1,13 @@
 const CACHE_NAME = 'exam-portal-v1';
 const urlsToCache = [
-  './',
-  './index.html',
-  './static/js/main.chunk.js',
-  './static/js/0.chunk.js',
-  './static/js/bundle.js',
-  './sip-logo-bold.png',
-  './manifest.json'
+  '/',
+  '/index.html',
+  '/static/js/main.db5d0bda.js',
+  '/static/css/main.138d9d2d.css',
+  '/manifest.json',
+  '/favicon.ico',
+  '/logo192.png',
+  '/logo512.png'
 ];
 
 // Install service worker and cache assets
