@@ -1,28 +1,30 @@
 {
   "short_name": "Exam Portal",
-  "name": "Offline Exam Portal",
+  "name": "University of Haripur Exam Portal",
   "icons": [
     {
-      "src": "sip-logo-bold.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
-      "src": "sip-logo-bold.png",
+      "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
-      "src": "sip-logo-bold.png",
+      "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#2E265D",
-  "background_color": "#2B6751",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
   "orientation": "portrait",
   "scope": "/",
-  "description": "An offline-capable exam portal for students"
+  "prefer_related_applications": false
 }
