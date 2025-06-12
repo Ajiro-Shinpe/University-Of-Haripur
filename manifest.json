@@ -10,33 +10,20 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any maskable"
+      "sizes": "192x192"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "any maskable"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#2E265D",
+  "theme_color": "#000000",
   "background_color": "#ffffff",
+  "description": "Offline-capable exam portal for University of Haripur students",
   "orientation": "portrait",
   "scope": "/",
-  "prefer_related_applications": false,
-  "description": "University of Haripur Offline Exam Portal",
-  "dir": "ltr",
-  "lang": "en-US",
-  "categories": ["education", "productivity"],
-  "screenshots": [],
-  "shortcuts": [
-    {
-      "name": "Take Exam",
-      "url": "/exams",
-      "description": "Start a new exam"
-    }
-  ]
+  "prefer_related_applications": false
 }
