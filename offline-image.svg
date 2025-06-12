@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .offline-icon { fill: #4e73df; }
+        .offline-text { font-family: Arial, sans-serif; font-size: 14px; fill: #5a5c69; }
+    </style>
+    <rect x="40" y="40" width="120" height="120" rx="10" class="offline-icon" opacity="0.1"/>
+    <path d="M100 60 L100 140 M60 100 L140 100" stroke="#4e73df" stroke-width="8" stroke-linecap="round"/>
+    <text x="100" y="180" text-anchor="middle" class="offline-text">Image Offline</text>
+</svg> 
